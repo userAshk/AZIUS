@@ -21,8 +21,14 @@
   background: rgba(0, 0, 0, 0.2);
 }
 
+.header .header__inner .logo {
+  cursor: pointer;
+}
+
 .header .header__inner .logo img {
   width: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .header .header__inner .links {
@@ -35,6 +41,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 .header .header__inner .links a {
@@ -43,9 +50,12 @@
   color: #D6B369;
 }
 
+.header .header__inner .social_network {
+  cursor: pointer;
+}
+
 .header .header__inner .social_network img {
   padding-left: 10px;
-  padding-right: 20px;
 }
 
 .intro {
@@ -227,6 +237,7 @@
 .partners .partners_grid .items {
   border: 1px solid #D6B369;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .partners .partners_grid .items .partner__logo {
@@ -314,8 +325,8 @@
   color: #000;
 }
 
-@media only screen and (max-width: 768px) {
-  .about__grid {
+@media only screen and (max-width: 800px) {
+  .about .about__grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
@@ -329,13 +340,16 @@
     width: 100%;
     height: 100%;
   }
-  .services__grid {
+  .services .services__inner .services__grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
-  .partners_grid {
+  .services .services__inner .services__grid .serv__item .serv-img img {
+    color: #000;
+  }
+  .partners .partners_grid {
     margin-top: 50px;
     display: -ms-grid;
     display: grid;
@@ -344,7 +358,13 @@
   }
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 662px) {
+  .header .header__inner .links {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .contacts {
     margin-top: 50px;
     display: -ms-grid;
@@ -373,5 +393,19 @@ a {
 .container {
   margin: auto;
   width: 100%;
+}
+
+.footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */

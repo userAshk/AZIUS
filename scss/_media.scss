@@ -1,9 +1,11 @@
-@media only screen and (max-width: 768px){
-    .about__grid{
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-        align-items: center;
+@media only screen and (max-width: 800px){
+    .about{
+        .about__grid{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            align-items: center;
+        }
     }
     .hero{
         img{
@@ -11,22 +13,51 @@
             height: 100%;
         }
     }
-    .services__grid{
-        display: grid;
-        grid-template-columns: 1fr;
+    .services{ 
+        .services__inner{
+            .services__grid{
+                display: grid;
+                grid-template-columns: 1fr;
+
+                // BIG PROBLEM
+
+                
+                .serv__item{
+                    .serv-img{
+                        img{
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
     }
-    .partners_grid{
-        margin-top: 50px;
-        display: grid;
-        grid-template-columns: 1fr;
+
+    .partners{
+        .partners_grid{
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+//show me бургер
+@media only screen and (max-width: 662px){
+    .header{
+        .header__inner{
+            .links{
+                display: none;
+            }
+            .social-networks{
+                //something
+            }
+        }
     }
 }
 
 
-
-
-
-@media only screen and (max-width: 840px){
+@media only screen and (max-width: 768px){
     .contacts{
         margin-top: 50px;
         display: grid;

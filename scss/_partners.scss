@@ -24,6 +24,7 @@ $primary: #D6B369;;
         .items{
             border: 1px solid $primary;
             border-radius: 8px;
+            cursor: pointer;
             .partner__logo{
                 display: flex;
                 flex-direction: column;
