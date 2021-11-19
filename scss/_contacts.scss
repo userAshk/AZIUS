@@ -1,0 +1,32 @@
+.contacts{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    .con_item{
+        background-color: #D6B369;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        height: 130px;
+        font-size: 24px;
+        border-radius: 8px;
+        .con_img{
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+    }
+    a{
+        color: #000;
+    }
+}
