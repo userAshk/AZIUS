@@ -9,8 +9,8 @@
     }
     .hero{
         img{
-            width: 100%;
-            height: 100%;
+            width: 70%;
+            height: 70%;
         }
     }
     .services{ 
@@ -20,7 +20,6 @@
                 grid-template-columns: 1fr;
 
                 // BIG PROBLEM
-
                 
                 .serv__item{
                     .serv-img{
@@ -43,12 +42,9 @@
 }
 
 //show me бургер
-@media only screen and (max-width: 662px){
+@media only screen and (max-width: 700px){
     .header{
         .logo{
-            //somehting
-        }
-        .links{
             display: none;
         }
         .social-networks{
