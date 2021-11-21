@@ -7,6 +7,7 @@
   z-index: 1000;
   font-family: sans-serif;
   height: 90px;
+  position: fixed;
 }
 
 .header .header__inner {
@@ -18,7 +19,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .header .header__inner .logo {
@@ -81,6 +82,12 @@
           flex-direction: column;
 }
 
+.hero img {
+  width: 90%;
+  height: 90%;
+  margin-bottom: 20px;
+}
+
 .hero p {
   color: #D6B369;
   text-align: center;
@@ -98,9 +105,11 @@
   margin-bottom: 20px;
 }
 
-.about p {
-  margin-left: 80px;
-  margin-right: 80px;
+.about .p-about {
+  margin: 0 50px;
+  padding: 20px 0;
+  border-top: 1px solid #D6B369;
+  border-bottom: 1px solid #D6B369;
 }
 
 .about .about__grid {
