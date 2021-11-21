@@ -1,19 +1,35 @@
+$primary:#D6B369;
+
+// .hero{
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     display: flex;
+//     flex-direction: column;
+//     img{
+//         width: 90%;
+//         height: 90%;
+//         margin-bottom: 20px;
+//     }
+
+// }
+
 .hero{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
     img{
-        width: 90%;
-        height: 90%;
-        margin-bottom: 20px;
+        width: 70%;
+        height: 70%;
+        padding: 50px 0;
     }
     p{
         color: $primary;
         text-align: center;
-        font-size: 24px;
+        font-size: 22px;
         margin: 0;
         padding: 0;
     }

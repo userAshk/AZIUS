@@ -1,38 +1,27 @@
 .header {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  font-family: sans-serif;
-  height: 90px;
-  position: fixed;
-}
-
-.header .header__inner {
+  padding: 0 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 90px;
   background: rgba(0, 0, 0, 0.7);
 }
 
-.header .header__inner .logo {
+.header .logo {
   cursor: pointer;
 }
 
-.header .header__inner .logo img {
+.header .logo img {
   width: 150px;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 
-.header .header__inner .links {
+.header .links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,17 +34,17 @@
   cursor: pointer;
 }
 
-.header .header__inner .links a {
+.header .links a {
   margin-left: 10px;
   margin-right: 10px;
   color: #D6B369;
 }
 
-.header .header__inner .social_network {
+.header .social_network {
   cursor: pointer;
 }
 
-.header .header__inner .social_network img {
+.header .social_network img {
   padding-left: 10px;
 }
 
@@ -68,11 +57,6 @@
 }
 
 .hero {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,18 +64,25 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 20px;
 }
 
 .hero img {
-  width: 90%;
-  height: 90%;
-  margin-bottom: 20px;
+  width: 70%;
+  height: 70%;
+  padding: 50px 0;
 }
 
 .hero p {
   color: #D6B369;
   text-align: center;
-  font-size: 24px;
+  font-size: 22px;
   margin: 0;
   padding: 0;
 }
@@ -370,7 +361,7 @@
 }
 
 @media only screen and (max-width: 662px) {
-  .header .header__inner .links {
+  .header .links {
     display: none;
   }
 }

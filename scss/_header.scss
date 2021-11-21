@@ -1,44 +1,33 @@
 $primary:#D6B369;
 
 .header{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    font-family: sans-serif;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 90px;
-    position: fixed;
-    .header__inner{
+    background: rgba(0, 0, 0, 0.7);
+    .logo{
+        cursor: pointer;
+        img{
+            width: 150px;
+        }
+    }
+    .links{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        background: rgba(0,0,0,0.7);
-        .logo{
-            cursor: pointer;
-            img{
-                width: 150px;
-                margin-top: 5px;
-                margin-bottom: 5px;
-            }
+        cursor: pointer;
+        a{
+            margin-left: 10px;
+            margin-right: 10px;
+            color: $primary;
         }
-        .links{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            cursor: pointer;
-            a{
-                margin-left: 10px;
-                margin-right: 10px;
-                color: $primary;
-            }
-        }
-        .social_network{
-            cursor: pointer;
-            img{
-                padding-left: 10px;
-            }
+    }
+    .social_network{
+        cursor: pointer;
+        img{
+            padding-left: 10px;
         }
     }
 }

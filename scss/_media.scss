@@ -45,13 +45,14 @@
 //show me бургер
 @media only screen and (max-width: 662px){
     .header{
-        .header__inner{
-            .links{
-                display: none;
-            }
-            .social-networks{
-                //something
-            }
+        .logo{
+            //somehting
+        }
+        .links{
+            display: none;
+        }
+        .social-networks{
+            //something
         }
     }
 }
