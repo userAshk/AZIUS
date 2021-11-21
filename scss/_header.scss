@@ -36,9 +36,6 @@ $primary:#D6B369;
             border-bottom: 2px solid $primary;
             transition: .5s;
         }
-        a:focus{
-            border-bottom: 2px solid $primary;
-        }
     }
     .social_network{
         cursor: pointer;
@@ -47,4 +44,3 @@ $primary:#D6B369;
         }
     }
 }
-

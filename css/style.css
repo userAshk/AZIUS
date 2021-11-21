@@ -55,10 +55,6 @@
   transition: .5s;
 }
 
-.header .links a:focus {
-  border-bottom: 2px solid #D6B369;
-}
-
 .header .social_network {
   cursor: pointer;
 }

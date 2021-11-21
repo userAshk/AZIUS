@@ -2,7 +2,7 @@ function scrollTo(element) {
     window.scroll({
       behavior: 'smooth',
       left: 0,
-      top: element.offsetTop - 80
+      top: element.offsetTop - 79
     });
     event.preventDefault();
 }
@@ -37,3 +37,4 @@ window.onscroll = function() {
     document.getElementsByClassName("header")[0].classList.remove('header-bg');
   }
 };
+
