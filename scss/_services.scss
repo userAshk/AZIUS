@@ -14,25 +14,24 @@ $primary:#D6B369;
     width: 100%;
     height: 100%;
     background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);     
+    overflow-x: hidden;
     h2{
         padding: 50px 0;
         text-align: center;
     }
     //GRID
     .services__grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
         justify-content: space-around;
         align-items: center;
         gap: 20px;
-        
-        margin-left: 20px;
-        margin-right: 20px;
+
+        margin: 0 120px;
         padding-bottom: 50px;
         .serv__item{
             border: 1px solid $primary;
-            border-radius: 8px;
+            border-radius: 8px;            
             .serv-img{
                 position: relative;
                 width: 100%;
@@ -53,12 +52,49 @@ $primary:#D6B369;
                     padding-top: 20px;
                     font-size: 20px;
                 }
-                a{
-                    color: $primary;
+                a{  
+                    color: #000;
                     display: block;
                     margin-top: 20px;
                     font-size: 20px;
                 }
+                .more{
+                    a{
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+    .slider_btn1{
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        .button{
+            height: 50px;
+            width: 50px;
+            background-color: transparent;
+            outline: none;
+            border: none;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }    
+    .slider_btn2{
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        .button{
+            height: 50px;
+            width: 50px;
+            background-color: transparent;
+            outline: none;
+            border: none;
+            img{
+                width: 50px;
+                height: 50px;
             }
         }
     }
