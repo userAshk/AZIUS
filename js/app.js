@@ -27,6 +27,19 @@ document.getElementById("contacts-btn").addEventListener('click', () => {
   scrollTo(document.getElementById("contacts"));
 });
 
+// HEADER BGCOLOR
+var className = "inverted";
+var scrollTrigger = 60;
+
+window.onscroll = function() {
+  if (window.scrollY >= scrollTrigger || window.pageYOffset >= scrollTrigger) {
+    document.getElementsByTagName("header")[0].classList.add('header-bg');
+  } else {
+    document.getElementsByTagName("header")[0].classList.remove('header-bg');
+  }
+};
+
+
 //BURGER MENU SHOW HIDE
 $('.menu-btn').on('click', function(e){
   e.preventDefault;
@@ -39,18 +52,3 @@ $('.menu-btn').on('click', function(e){
     $('.menu-block_active').hide()
   })  
 });
-
-// const menuBtn = document.querySelector('.menu-btn')
-// const menuBlock = document.querySelector('.menu-block')
-// const header = document.querySelector('.header');
-
-// const addClass = (e) => {
-//   if(menuBtn){
-//     menuBtn.classList.add('menu-btn_active')
-//     menuBlock.classList.add('menu-block_active')
-//     header.style.backgroundColor = 'rgba(0, 0, 0, 0.8)'
-//   }
-// }
-
-// menuBtn.addEventListener('click', addClass)
-
