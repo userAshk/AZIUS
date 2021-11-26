@@ -49,6 +49,7 @@ $('.menu-btn').on('click', function(e){
   
 
   $('.menu-block a' ).on('click', function(e){
-    $('.menu-block_active').hide()
+    $('.menu-block').removeClass('menu-block_active')
+    $('.menu-btn').removeClass('menu-btn_active')
   })  
 });
