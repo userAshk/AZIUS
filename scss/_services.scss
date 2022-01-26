@@ -31,7 +31,10 @@ $primary:#D6B369;
         padding-bottom: 50px;
         .serv__item{
             border: 1px solid $primary;
-            border-radius: 8px;            
+            border-radius: 8px;      
+            display: block;      
+            min-width: 400px;
+            min-height: 690px;
             .serv-img{
                 position: relative;
                 width: 100%;
@@ -42,23 +45,23 @@ $primary:#D6B369;
                 }
             }            
             .serv__info{
+                position: relative;
                 padding: 20px;
                 h3{
                     font-size: 24px;
                 }
                 p{
-                    display: block;
-                    width: 90%;
                     padding-top: 20px;
-                    font-size: 20px;
                 }
                 a{  
                     color: #000;
                     display: block;
                     margin-top: 20px;
-                    font-size: 20px;
                 }
                 .more{
+                    // position: absolute;
+                    // left: 20px;
+                    // bottom: -30px;
                     a{
                         color: $primary;
                     }

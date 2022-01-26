@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="img/logo.svg">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Azius</title>
 </head>
@@ -18,10 +19,10 @@
                     <span></span>
                 </div>
                 <div class="menu-block">
-                    <a href="#"  id="about-btn">About us</a>
-                    <a href="#"  id="serv-btn">Our services</a>
-                    <a href="#"  id="partners-btn">Our partners</a>
-                    <a href="#"  id="contacts-btn">Contacts</a>
+                    <a href="#"  id="about-btn">О нас</a>
+                    <a href="#"  id="serv-btn">Наши сервисы</a>
+                    <a href="#"  id="partners-btn">Наши партнера</a>
+                    <a href="#"  id="contacts-btn">Контакты </a>
                 </div>
                 <div class="logo">
                     <a href="index.html">
@@ -29,12 +30,13 @@
                     </a>
                 </div>
                 <nav class="links">
-                    <a href="#" id="about-btn">About us</a>
-                    <a href="#" id="serv-btn">Our services</a>
-                    <a href="#" id="partners-btn">Our partners</a>
-                    <a href="#" id="contacts-btn">Contacts</a>
+                    <a href="#" id="about-btn" class="lang" key='about'>О нас </a>
+                    <a href="#" id="serv-btn" class="lang" key='services'>Наши сервисы</a>
+                    <a href="#" id="partners-btn" class="lang" key='partners'>Партнеры</a>
+                    <a href="#" id="contacts-btn" class="lang" key='contact'>Контакты</a>
                 </nav>
                 <div class="social_network">
+       
                     <a href="#">
                         <img src="img/facebook.svg" alt="">
                     </a>
@@ -44,15 +46,15 @@
                     <a href="#">
                         <img src="img/twitter.svg" alt="">
                     </a>
+                    <div id="ru" class="translate">Ru</div>
+                    <div id="en" class="translate">Eng</div>
                 </div>
             </header>
             <div class="hero animate__animated animate__fadeInUp">
                 <div class="hero-center">
                     <img src="img/hero-logo.png" alt="">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Ab debitis eaque quos sint temporibus amet, consectetur 
-                        labore voluptates facilis placeat.
+                    <p class="lang" key='hero'>
+                        Премиальные продукты из родины заснеженных вершин и уникальных историй. 
                     </p>
                 </div>
             </div>
@@ -61,38 +63,40 @@
 
     <section class="about" id="about">
         <div class="container">
-            <h2>About Us</h2>
-            <p class="p-about">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus 
-                commodo magna elementum dui, et. Dictum faucibus blandit sem pretium 
-                vel consectetur donec urna, dignissim. Magna lectus purus pharetra nibh 
-                scelerisque viverra enim. Ornare sed lorem egestas arcu aliquam. 
-                Mi mauris velit dolor pretium viverra velit dui neque tellus. 
-                Vestibulum sit eu fames lacinia risus. Egestas non, praesent pharetra 
-                egestas suspendisse. Lectus nec risus duis aliquet. Dignissim morbi nisi, 
-                tempor ullamcorper sodales tempus tortor. Id tincidunt et, 
-                lacinia quis non in felis.
+            <h2 class="lang" key='aboutHead'>О нас</h2>
+            <p class="p-about lang" key='azius'>
+                AZIUS - мультипроектная компания, базирующаяся в г. Бишкек, 
+                Кыргызстан. Компания производит переработанные сельскохозяйственные 
+                продукты премиального качества, материалы 
+                для горной промышленности и   ведет проекты жилищного строительства. 
             </p>
             <div class="about__grid">
                 <div>
                     <img src="img/award.svg" alt="">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed faucibus commodo magna elementum dui, et.
+                    <p class="lang" key='awards'>
+                        Одна из главных ценностей компании - бескомпромиссная верность 
+                        высокому качеству. Вся продукция отвечает международным стандартам и 
+                        пригодна для использования и эксплуатации в любой точке планеты.
+                        
                     </p>
                 </div>
                 <div>
                     <img src="img/check-circle.svg" alt="">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed faucibus commodo magna elementum dui, et.
+                    <p class="lang" key='madeInKg'>
+                        “Made in Kyrgyzstan” - основной вектор развития и приоритета в компании. 
+                        Нами движет желание возродить былую славу 
+                        кыргызских предприятий и создать премиальный имидж страны. 
+                        <br>
+                        <br>
                     </p>
                 </div>
                 <div>
                     <img src="img/smile.svg" alt="">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed faucibus commodo magna elementum dui, et.
+                    <p class="lang" key='smile'>
+                        С самого первого дня компания придерживается стратегии социально 
+                        ответственного бизнеса. Мы верим, что бизнесы 
+                        должно способствовать экономическому и этическому развитию общества.
+                        <br>
                     </p>
                 </div>
             </div>
@@ -103,8 +107,8 @@
     <section class="services" id="services">
         <div class="services__inner">
             <div class="container">
-                <h2>
-                    Our Services
+                <h2 class="lang" key='servHead'>
+                    Наша продукция
                 </h2>
                 <div class="slider_btn1">
                     <button class="button">
@@ -124,13 +128,12 @@
                                 <img src="img/wood.png" alt="">
                             </div>
                             <div class="serv__info">
-                                <h3>
-                                    Mines Supplement
+                                <h3 class="lang" key='woodHead'>
+                                    Материалы для горной промышленности
                                 </h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur 
-                                    adipiscing elit. Sed faucibus 
-                                    commodo magna elementum dui, et.
+                                <p class="lang" key='woodParagraf'>
+                                    Лесоматериалы и металлические крепи, пригодные для 
+                                    горнорудной и гражданской строительной деятельности. 
                                 </p>
                                 <div class="more">
                                     <a href="#">
@@ -147,13 +150,12 @@
                                 <img src="img/honey.png" alt="" >
                             </div>
                             <div class="serv__info">
-                                <h3>
-                                    Honey Product
+                                <h3 class="lang" key='honeyHead'>
+                                    Продукты питания
                                 </h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur 
-                                    adipiscing elit. Sed faucibus 
-                                    commodo magna elementum dui, et.
+                                <p class="lang" key='honeyParagraf'>
+                                    Премиальные продукты питания, включая мед, джемы, 
+                                    натуральные соки прямого отжима, ферментированные молочные продукты
                                 </p>
                                 <div class="more">
                                     <a href="#">
@@ -170,13 +172,11 @@
                                 <img src="img/consulting.png" alt="">
                             </div>
                             <div class="serv__info">
-                                <h3>
-                                    Construction
+                                <h3 class="lang" key='consultHead'>
+                                    Жилищное строительство
                                 </h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur 
-                                    adipiscing elit. Sed faucibus 
-                                    commodo magna elementum dui, et.
+                                <p class="lang" key='consultParagraf'>
+                                    Разработка и осуществление проектов жилищных строений.
                                 </p>
                                 <div class="more">
                                     <a href="#">
@@ -305,7 +305,8 @@
         <img src="img/logo.svg" alt="">
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-<script src="js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/langSwitcher.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>

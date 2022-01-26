@@ -80,6 +80,26 @@ $primary:#D6B369;
     background: rgba(0, 0, 0, 0.8);
     transition: 0.5s;
 }
+
+%langSwitch{
+    padding: 5px;
+    border: 1px solid $primary;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    color: $primary;
+}
+%langHover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.2s;
+    cursor: pointer;
+}
+%langFocus{
+    background: #fff;
+    font-weight: 900;
+}
 .header{
     padding: 0 20px;
     display: flex;
@@ -112,12 +132,26 @@ $primary:#D6B369;
         }
     }
     .social_network{
+        display: flex;
+
         cursor: pointer;
         img{
             padding: 10px;
         }
+        .translate {
+            @extend %langSwitch;
+
+            &:hover {
+                @extend %langHover
+            }
+            &:focus{
+                @extend %langFocus;
+            }
+        }
     }
+
 }
+
 .logo_hidden{
     display: none;
 }
