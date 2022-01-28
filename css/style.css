@@ -320,7 +320,7 @@
   border: 1px solid #D6B369;
   border-radius: 8px;
   display: block;
-  min-width: 400px;
+  min-width: 33%;
   min-height: 690px;
   cursor: pointer;
 }
@@ -342,7 +342,7 @@
 }
 
 .services__inner .services__grid .serv__item .serv__info h3 {
-  font-size: 24px;
+  font-size: 150%;
 }
 
 .services__inner .services__grid .serv__item .serv__info p {
@@ -399,7 +399,7 @@
 
 .modal {
   display: none;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   z-index: 100;
@@ -411,7 +411,7 @@
 
 .modal .modal-content {
   background: #fefefe;
-  margin: 15% auto;
+  margin: 20% auto;
   padding: 20px;
   border: 1px solid #D6B369;
   z-index: 9999;

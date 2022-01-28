@@ -1,6 +1,6 @@
 .modal{
     display: none;
-    position: fixed;
+    position: absolute;
     left: 0; top: 0;
     z-index: 100;
     width: 100%;
@@ -9,7 +9,7 @@
     background: rgba(0, 0, 0, .4);
     .modal-content{
         background: #fefefe;
-        margin: 15% auto;
+        margin: 20% auto;
         padding: 20px;
         border: 1px solid $primary;
         z-index: 9999;
