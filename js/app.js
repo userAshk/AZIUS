@@ -53,3 +53,28 @@ $('.menu-btn').on('click', function(e){
     $('.menu-btn').removeClass('menu-btn_active')
   })  
 });
+
+
+let allModals = document.querySelectorAll("*[data-modal-btn]");
+
+for(let i=0; i<allModals.length; i++){
+  allModals[i].addEventListener('click', () => {
+    let name = allModals[i].getAttribute('data-modal-btn');
+    let modal = document.querySelector("[data-modal-window='"+name+"']");
+    modal.style.display = 'block';
+
+    let close = modal.querySelector('.close-modal-window');
+    close.addEventListener('click', () => {
+      modal.style.display = 'none'
+    })
+  })
+}
+
+window.onclick = function (e) {
+  if (e.target.hasAttribute('data-modal-window')){
+    let modals = document.querySelectorAll('*[data-modal-window]');
+    for (let i=0; i<modals.length; i++){
+      modals[i].style.display = 'none';
+    }
+  }
+}
