@@ -8,8 +8,8 @@
     overflow: auto;
     background: rgba(0, 0, 0, .4);
     .modal-content{
-        background: #fefefe;
-        margin: 20% auto;
+        background: #FFFFFF;
+        margin: 10% auto;
         padding: 20px;
         border: 1px solid $primary;
         z-index: 9999;
@@ -20,15 +20,36 @@
             align-items: center;
             justify-content: space-between;
             margin-bottom: 10px;
+            position: 'relative';
             .modal-title{
                 font-size: 24px;
+                justify-self: center;
                 font-weight: bold;
+                text-align: center;
             }
             .close-modal-window{
                 color: #aaa;
                 font-size: 40px;
                 font-weight: bold;
                 cursor: pointer;
+            }
+        }
+        .inModal{
+            .inModal-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                align-items: center;
+                justify-content: space-between;
+                .inModal-info{
+                    padding: 10px;
+                }
+                .inmodal-img{
+                    img{
+                        width: 100%;
+                        margin-bottom: 10px;
+                        border-radius: 14px;
+                    }
+                }
             }
         }
     }
