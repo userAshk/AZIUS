@@ -27,17 +27,17 @@ document.getElementById("contacts-btn").addEventListener('click', () => {
   scrollTo(document.getElementById("contacts"));
 });
 
-// HEADER BGCOLOR
-var className = "inverted";
-var scrollTrigger = 60;
+// // HEADER BGCOLOR
+// var className = "inverted";
+// var scrollTrigger = 60;
 
-window.onscroll = function() {
-  if (window.scrollY >= scrollTrigger || window.pageYOffset >= scrollTrigger) {
-    document.getElementsByTagName("header")[0].classList.add('header-bg');
-  } else {
-    document.getElementsByTagName("header")[0].classList.remove('header-bg');
-  }
-};
+// window.onscroll = function() {
+//   if (window.scrollY >= scrollTrigger || window.pageYOffset >= scrollTrigger) {
+//     document.getElementsByTagName("header")[0].classList.add('header-bg');
+//   } else {
+//     document.getElementsByTagName("header")[0].classList.remove('header-bg');
+//   }
+// };
 
 
 //BURGER MENU SHOW HIDE
@@ -54,18 +54,16 @@ $('.menu-btn').on('click', function(e){
   })  
 });
 
-
 let allModals = document.querySelectorAll("*[data-modal-btn]");
 
 for(let i=0; i<allModals.length; i++){
-  allModals[i].addEventListener('click', () => {
+  allModals[i].addEventListener('click', function () {
     let name = allModals[i].getAttribute('data-modal-btn');
     let modal = document.querySelector("[data-modal-window='"+name+"']");
     modal.style.display = 'block';
-
     let close = modal.querySelector('.close-modal-window');
-    close.addEventListener('click', () => {
-      modal.style.display = 'none'
+    close.addEventListener('click', function () {
+      modal.style.display = "none";
     })
   })
 }

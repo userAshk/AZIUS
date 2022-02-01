@@ -6,6 +6,9 @@
             gap: 20px;
             align-items: center;
         }
+        .p-about{
+            padding: 0;
+        }
     }
     .hero{
         img{
@@ -18,7 +21,7 @@
             .services__grid{
                 display: grid;
                 grid-template-columns: 1fr;
-
+                margin: 10px;
                 // BIG PROBLEM
                 
                 .serv__item{
@@ -52,8 +55,16 @@
         .links{
             display: none;
         }
+        .socials{
+            display: none;
+        }
         .menu-btn{
             display: block;
+        }
+        .inMenu{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
         }
     }
 }
