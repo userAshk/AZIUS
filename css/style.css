@@ -275,6 +275,7 @@
   border-radius: 8px;
   padding: 20px;
   min-width: 310px;
+  min-height: 400px;
 }
 
 .about .about__grid div p {
