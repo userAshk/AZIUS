@@ -60,7 +60,11 @@ for(let i=0; i<allModals.length; i++){
   allModals[i].addEventListener('click', function () {
     let name = allModals[i].getAttribute('data-modal-btn');
     let modal = document.querySelector("[data-modal-window='"+name+"']");
-    modal.style.display = 'block';
+    modal.style.display = 'flex';
+    modal.style.justifyContent = 'center';
+    modal.style.alignItems = 'center';
+    //flex надо чтоб работал ОТ window?) а не от парента 
+  
     let close = modal.querySelector('.close-modal-window');
     close.addEventListener('click', function () {
       modal.style.display = "none";

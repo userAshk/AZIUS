@@ -1,3 +1,5 @@
+$primary:#D6B369;
+
 @import "header";
 @import "intro";
 @import "hero";
@@ -9,7 +11,6 @@
 @import "media";
 
 
-$primary:#D6B369;
 *{
     padding: 0;
     margin: 0;
@@ -35,7 +36,6 @@ p{
 .container{
     margin: auto;
     width: 100%;
-    
 }
 
 .footer{
