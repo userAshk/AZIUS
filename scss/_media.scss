@@ -5,6 +5,9 @@
             grid-template-columns: 1fr;
             gap: 20px;
             align-items: center;
+            div{
+                height: auto;
+            }
         }
         .p-about{
             padding: 0;
@@ -21,9 +24,7 @@
             .services__grid{
                 display: grid;
                 grid-template-columns: 1fr;
-                margin: 10px;
-                // BIG PROBLEM
-                
+                margin: 10px;                
                 .serv__item{
                     .serv-img{
                         img{

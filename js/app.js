@@ -1,16 +1,16 @@
 
 
-function scrollTo(element) {
+function scrollTo(e) {
   window.scroll({
     behavior: 'smooth',
     left: 0,
-    top: element.offsetTop - 79
+    top: element.offsetTop - 80
   });
-
+  e.preventDefault();
 }
 
 //ABOUT
-document.getElementById("about-btn").addEventListener('click', () => {
+document.getElementById("about-btn").addEventListener('click', function () {
   scrollTo(document.getElementById("about"));
 });
 

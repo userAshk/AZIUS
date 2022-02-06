@@ -5,6 +5,7 @@
   background-color: transparent;
   border-radius: 50%;
   position: relative;
+  cursor: pointer;
 }
 
 .menu-btn span,
@@ -409,7 +410,7 @@
 
 .modal .modal-content {
   overflow-y: auto;
-  height: 100%;
+  height: 90%;
   display: block;
   background: #FFFFFF;
   padding: 20px;
@@ -418,6 +419,7 @@
   width: 80%;
   border-radius: 14px;
   margin: 5% auto;
+  margin-bottom: 20%;
 }
 
 .modal .modal-content .modal-inner {
@@ -604,6 +606,9 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  .about .about__grid div {
+    height: auto;
+  }
   .about .p-about {
     padding: 0;
   }
@@ -690,9 +695,9 @@
   font-family: sans-serif;
 }
 
-body,
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
