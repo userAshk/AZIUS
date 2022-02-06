@@ -82,7 +82,7 @@ $primary:#D6B369;
 }
 
 %langSwitch{
-    padding: 5px;
+    padding: 2px 10px;
     border: 1px solid $primary;
     border-radius: 14px;
     display: flex;
@@ -134,10 +134,9 @@ $primary:#D6B369;
     }
     .social_network{
         display: flex;
-
         cursor: pointer;
         img{
-            padding: 10px;
+            padding: 6px 10px;
         }
         .translate {
             @extend %langSwitch;

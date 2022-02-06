@@ -12,7 +12,6 @@
     overflow: hidden;
     background: rgba(0, 0, 0, .4);
     .modal-content{
-        //
         background: #FFFFFF;
         padding: 20px;
         border: 1px solid $primary;
@@ -20,7 +19,7 @@
         width: 80%;
         border-radius: 14px;
 
-        margin: auto;
+        margin: 10% auto;
 
         .modal-inner{
             display: flex;
