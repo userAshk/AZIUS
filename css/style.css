@@ -408,13 +408,16 @@
 }
 
 .modal .modal-content {
+  overflow-y: auto;
+  height: 100%;
+  display: block;
   background: #FFFFFF;
   padding: 20px;
   border: 1px solid #D6B369;
   z-index: 9999;
   width: 80%;
   border-radius: 14px;
-  margin: 10% auto;
+  margin: 5% auto;
 }
 
 .modal .modal-content .modal-inner {

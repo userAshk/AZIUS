@@ -6,7 +6,7 @@ function scrollTo(element) {
     left: 0,
     top: element.offsetTop - 79
   });
-  element.preventDefault();
+
 }
 
 //ABOUT
@@ -20,9 +20,9 @@ document.getElementById("serv-btn").addEventListener('click', () => {
 });
 
 //PERTNERS
-document.getElementById("partners-btn").addEventListener('click', () => {
-  scrollTo(document.getElementById("partners"));
-});
+// document.getElementById("partners-btn").addEventListener('click', () => {
+//   scrollTo(document.getElementById("partners"));
+// });
 
 //CONTACTS
 document.getElementById("contacts-btn").addEventListener('click', () => {
@@ -62,7 +62,6 @@ for(let i=0; i<allModals.length; i++){
   allModals[i].addEventListener('click', function () {
     let name = allModals[i].getAttribute('data-modal-btn');
     let modal = document.querySelector("[data-modal-window='"+name+"']");
-    let modalContent = document.querySelectorAll('.modal-content');
     modal.style.display = 'block';
 
     let close = modal.querySelector('.close-modal-window');
