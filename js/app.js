@@ -6,7 +6,7 @@ function scrollTo(element) {
     left: 0,
     top: element.offsetTop - 79
   });
-  event.preventDefault();
+  element.preventDefault();
 }
 
 //ABOUT
