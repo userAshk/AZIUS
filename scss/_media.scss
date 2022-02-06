@@ -12,6 +12,7 @@
         }
         .p-about{
             padding: 0;
+            padding-bottom: 20px;
         }
     }
     .hero{
@@ -60,6 +61,16 @@
             .con_img{
                 margin-bottom: 10px;
                 margin-right: 0;
+            }
+        }
+    }
+    .modal {
+        .modal-content {
+            .inModal {
+                .inModal-grid {
+                    display: flex;
+                    flex-direction: column;
+                }
             }
         }
     }

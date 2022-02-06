@@ -110,7 +110,7 @@
 
 .header .social_network .translate {
   padding: 2px 10px;
-  border: 1px solid #D6B369;
+  border: 2px solid #D6B369;
   border-radius: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -193,6 +193,8 @@
 }
 
 .header .social_network img {
+  width: 55px;
+  height: 55px;
   padding: 6px 10px;
 }
 
@@ -612,6 +614,7 @@
   }
   .about .p-about {
     padding: 0;
+    padding-bottom: 20px;
   }
   .hero img {
     width: 70%;
@@ -657,6 +660,15 @@
   .contacts .con_item .con_img {
     margin-bottom: 10px;
     margin-right: 0;
+  }
+  .modal .modal-content .inModal .inModal-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
