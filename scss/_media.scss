@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 930px){
     .about{
         .about__grid{
             display: grid;
@@ -74,6 +74,11 @@
             }
         }
     }
+    .contacts{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 //show me бургер
@@ -101,9 +106,5 @@
 
 
 @media only screen and (max-width: 768px){
-    .contacts{
-        margin-top: 50px;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+
 }
