@@ -692,6 +692,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    max-width: 310px;
+    margin: 0 auto;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }

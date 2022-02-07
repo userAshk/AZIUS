@@ -92,6 +92,8 @@
         .inMenu{
             display: flex;
             align-items: center;
+            max-width: 310px;
+            margin: 0 auto;
             justify-content: space-around;
         }
     }
