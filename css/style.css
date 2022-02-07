@@ -269,7 +269,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-width: 500px;
 }
 
 .about .about__grid div {
@@ -277,9 +276,7 @@
   -webkit-box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
           box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
   border-radius: 8px;
-  padding: 20px;
   min-width: 300px;
-  height: 435px;
 }
 
 .about .about__grid div img {
@@ -616,6 +613,9 @@
   }
   .about .about__grid div {
     height: auto;
+  }
+  .about .about__grid div p {
+    padding: 0px;
   }
   .about .p-about {
     padding: 0;
