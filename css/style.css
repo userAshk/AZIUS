@@ -456,6 +456,11 @@
   cursor: pointer;
 }
 
+.modal .modal-content h2 {
+  text-align: center;
+  padding: 20px 0;
+}
+
 .modal .modal-content .inModal .inModal-grid {
   display: -ms-grid;
   display: grid;
