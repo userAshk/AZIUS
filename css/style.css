@@ -457,6 +457,9 @@
   font-size: 40px;
   font-weight: bold;
   cursor: pointer;
+  background: #000;
+  padding: 0px 10px;
+  border-radius: 50%;
 }
 
 .modal .modal-content h2 {
