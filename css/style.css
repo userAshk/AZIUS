@@ -450,7 +450,10 @@
 }
 
 .modal .modal-content .modal-inner .close-modal-window {
-  color: #aaa;
+  position: fixed;
+  top: 3%;
+  right: 8%;
+  color: #fff;
   font-size: 40px;
   font-weight: bold;
   cursor: pointer;
