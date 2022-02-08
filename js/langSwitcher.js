@@ -20,12 +20,26 @@ var arrLang = {
         'servHead':'Наша продукция',
         'woodHead':'Материалы для горной промышленности',
         'woodParagraf':'Лесоматериалы и металлические крепи, пригодные для горнорудной и гражданской строительной деятельности. ',
-        'honeyHead':'Продукты питания',
-        'honeyParagraf':'Премиальные продукты питания, включая мед, джемы, натуральные соки прямого отжима, ферментированные молочные продукты',
+
+        'foodsHead':'Продукты питания',
+        'foodsParagraf':'Премиальные продукты питания, включая мед, джемы, натуральные соки прямого отжима, ферментированные молочные продукты',
+
         'consultHead':'Жилищное строительство',
         'consultParagraf':'Разработка и осуществление проектов жилищных строений.',
 
+        //MODALS
+        'timber':'Лесоматериалы',
 
+
+        'honeyHead':'МЁД “AZIUS”',
+        'nature':'Уникальный. Сырой. Натуральный',
+        'premium':'“Azius” - премиальный натуральный мёд, собранный на горных склонах Центральной Азии. Благодаря нашей приверженности ценностям исключительного качества, мы создали первоклассный продукт, объединивший в себе уникальность и лечебные свойства высокогорных медоносных растений.',
+
+        'key':'value',
+        'key':'value',
+        'key':'value',
+        'key':'value',
+        'key':'value',
         'key':'value',
     },
 
@@ -51,14 +65,24 @@ var arrLang = {
         'woodHead':'Mining materials',
         'woodParagraf':'Timber and metal lining suitable for mining and civil construction activities.',
 
-        'honeyHead':'Foods',
-        'honeyParagraf':'Premium food products including honey, jams, natural juices, fermented dairy products',
+        'foodsHead':'Foods',
+        'foodsParagraf':'Premium food products including honey, jams, natural juices, fermented dairy products',
 
         'consultHead':'Housing construction',
         'consultParagraf':'Development and implementation of housing projects.',
 
+        //MODALS
 
+        'timber':'Timber',
+
+        'honeyHead':'Honey "AZIUS"',
+        'nature':'Unique. Raw. Natural',
+        'premium':'“Azius” is a premium brand of natural honey collected on the foothills of Central Asia. Committed to values of exceptional quality we created a first-class product that blends the uniqueness and medicinal features of mountain honey plants. ',
         'key':'value',
+        'key':'value',
+        'key':'value',
+        'key':'value',
+
     },
 }
 
