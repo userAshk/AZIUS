@@ -2,7 +2,7 @@ var arrLang = {
     'ru': {
         //HEADER
         'about': 'О нас',
-        'services': 'Наши сервисы',
+        'services': 'Сферы Деятельности',
         'partners': 'Партнеры',
         'contact': 'Контакты',
 
@@ -32,7 +32,7 @@ var arrLang = {
     'en': {
         // HEADER
         'about': 'About Us',
-        'services': 'Our services',
+        'services': 'Areas of Activity',
         'partners': 'Our partners',
         'contact': 'Contacts',
 
