@@ -59,7 +59,7 @@ var arrLang = {
         'jc3':'Выращенные в Ноокатском районе Кыргызстана яблоки и абрикосы имеют поразительно насыщенный вкус, что создает идеальную базу для всех соков. Благодаря тесным и плодотворным отношениям с местными фермерами мы получаем только качественные ингредиенты, которые отвечают всем запросам органического агрохозяйства.',
 
 
-        'key':'value',
+        'adress':'Кыргызская Республика, 720001 Бишкек, ул. Токтогула 125/1, БЦ "Авангард", Блок Б, офис 807',
     },
 
     'en': {
@@ -123,7 +123,7 @@ var arrLang = {
         'jc2':'We don’t use GMO in any of our products to comply with international standards of quality. Authenticity and elegant simplicity of AZIUS are still the foundation of our philosophy.',
         'jc3':'Peaches and apples harvested in the Nookat district of Kyrgyzstan have a remarkably rich taste which creates a perfect base for all of our juices. Thanks to close relationships with local farmers we only get great ingredients that meet the requirements of organic agriculture. ',
         
-        'key':'value',
+        'adress':'Office 807, Tower B, Avantgarde Business Center, 125/1 Toktogul Street, 720001 Bishkek, Kyrgyz Republic',
     },
 }
 
