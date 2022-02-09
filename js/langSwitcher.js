@@ -2,7 +2,7 @@ var arrLang = {
     'ru': {
         //HEADER
         'about': 'О нас',
-        'services': 'Сферы Деятельности',
+        'services': 'Сферы деятельности',
         'partners': 'Партнеры',
         'contact': 'Контакты',
 
