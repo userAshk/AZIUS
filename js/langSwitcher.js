@@ -127,6 +127,7 @@ var arrLang = {
     },
 }
 
+
 $(function () {
     $('.translate').click(function () {
         var lang = $(this).attr('id');
