@@ -80,7 +80,7 @@ var arrLang = {
         'smile':'From the very first day, the company has adhered to the strategy of socially responsible business. We believe that businesses should contribute to the economic and ethical development of society.',
         
         //SERVICES 
-        'servHead':'Our products',
+        'servHead':'Areas of Activity',
         'woodHead':'Mining materials',
         'woodParagraf':'Timber and metal lining suitable for mining and civil construction activities.',
 
