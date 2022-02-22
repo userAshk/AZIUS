@@ -58,6 +58,9 @@ var arrLang = {
         'jc2':'В нашем продукте не используется ГМО и соответственно наш продукт соответствует всем международным стандартам качества, аутентичность и элегантная простота AZIUS остаются краеугольным камнем нашей философии.   ',
         'jc3':'Выращенные в Ноокатском районе Кыргызстана яблоки и абрикосы имеют поразительно насыщенный вкус, что создает идеальную базу для всех соков. Благодаря тесным и плодотворным отношениям с местными фермерами мы получаем только качественные ингредиенты, которые отвечают всем запросам органического агрохозяйства.',
 
+        'conHead': 'Жилищное строительство',
+        'con1': 'На данный момент компания осуществляет проектирование жилого объекта в г. Бишкек. Жильцы смогут пользоваться всеми достоинствами дома премиум-класса. Здание будет расположено в южных микрорайонах вблизи всей необходимой инфраструктуры для полноценной жизни. Дом будет состоять из двух подъездов и 9 этажей.',
+
 
         'adress':'Кыргызская Республика, 720001 Бишкек, ул. Токтогула 125/1, БЦ "Авангард", Блок Б, офис 807',
     },
@@ -122,6 +125,9 @@ var arrLang = {
         'jc1':'“AZIUS” is “best in class” when it comes to the additive-free juice category. Production uses first-class Dutch equipment and direct squeeze technology not from concentrate. This in turn proves the absence of concentrates, conservants.',
         'jc2':'We don’t use GMO in any of our products to comply with international standards of quality. Authenticity and elegant simplicity of AZIUS are still the foundation of our philosophy.',
         'jc3':'Peaches and apples harvested in the Nookat district of Kyrgyzstan have a remarkably rich taste which creates a perfect base for all of our juices. Thanks to close relationships with local farmers we only get great ingredients that meet the requirements of organic agriculture. ',
+        
+        'conHead': 'Housing construction',
+        'con1': 'One of our current projects is the development of a housing building in Bishkek. Residents will have access to all advantages of premium class real estate. Its location in the southern part of the city makes it a better choice because of the close proximity to infrastructure necessary for a full life. The building will have two front doors and 9 floors.',
         
         'adress':'Office 807, Tower B, Avantgarde Business Center, 125/1 Toktogul Street, 720001 Bishkek, Kyrgyz Republic',
     },
